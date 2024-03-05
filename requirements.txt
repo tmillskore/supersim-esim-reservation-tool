@@ -1,0 +1,4 @@
+pyqrcode~=1.2.1
+pypng
+requests~=2.31.0
+Pillow~=9.5.0
