@@ -5,10 +5,11 @@ Tool for reserving SuperSIM eSim profiles and retrieving activation codes/QR Cod
 ## Requirements
 
 - Python 3
+- A text editor (Notepad++, Sublime, etc.) 
 
 ## How to use
 
 1. Clone/Download GitHub repo
-2. Use a text editor (Notepad++, Sublime, etc.) to edit Config.py and add your Account SID, Auth Token, and Fleet SID.
+2. Use a text editor to edit Config.py and add your Account SID, Auth Token, and Fleet SID.
 3. Click on run.bat, this will install everything in requirements.txt and run the script.
 4. Follow the onscreen prompts.
