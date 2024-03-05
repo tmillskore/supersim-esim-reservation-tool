@@ -24,14 +24,14 @@ def main():
             print("Invalid input. Please enter 'Yes' or 'No'.")
 
     for _ in range(quantity):
-        sid = reserve_esim_profile(account_sid, auth_token, authorization)  # Make sure to define this function
+        sid = reserve_esim_profile(account_sid, auth_token, authorization)
         time.sleep(2)
-        sim_sid, activation_code = get_esim_sid(authorization, sid)  # Make sure to define this function
+        sim_sid, activation_code = get_esim_sid(authorization, sid)
         time.sleep(2)
-        iccid = activate_esim_profile(authorization, sim_sid, fleet)  # Make sure to define this function
+        iccid = activate_esim_profile(authorization, sim_sid, fleet)
 
-        if qr_code == 'yes' and activation_code:  # Check if qr_code is 'yes' and activation_code is not empty
-            display_qr_code(activation_code)  # Make sure to define this function
+        if qr_code == 'yes' and activation_code:
+            display_qr_code(activation_code)
             print(f"QR Code printed for ICCID: {iccid}")
         else:
             print(f"Activation code {activation_code} created for ICCID: {iccid}")
