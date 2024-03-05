@@ -1,1 +1,1 @@
-# supserim-esim-reservation-tool
+# supersim-esim-reservation-tool
